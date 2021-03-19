@@ -1,2 +1,2 @@
-4Git is a distributed version control system.
-4 Git is free software distributed under the GPL.
+5Git is a distributed version control system.
+5 Git is free software distributed under the GPL.
