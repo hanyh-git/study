@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)file:///Users/admin/Desktop/index.html -->
+<html style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Insert title here</title>
+
+    <script type="text/javascript">
+
+    </script>
+
+
+    <style type="text/css">
+        body{
+            height:100%;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+
+        }
+        .contain{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+        }
+
+        input{
+            height: 70px;
+            width: 350px;
+            font-size:40px;
+            font-weight:800;
+            background-color: #f5696c;
+            border: none;
+            border-radius:18px;
+
+
+
+        }
+
+
+        .contain1{
+            height: 500px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .div1{
+            height: 70px;
+            background: #dc07cb;
+            width: 400px;
+            position:relative;
+        }
+
+        .div2{
+            text-align:center;
+            padding-top:12px;
+            font-size:40px;
+            font-weight:800
+        }
+
+        .inputstyle{
+            width: 400px;
+            height: 70px;
+            cursor: pointer;
+            font-size: 30px;
+            outline: medium none;
+            position: absolute;
+            filter:alpha(opacity=0);
+            -moz-opacity:0;
+            opacity:0;
+            left:0px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body style="height: 100%;">
+<div class="contain">
+    <form action="/print/upload" method="post" enctype="multipart/form-data">
+        <div class="div1">
+            <div class="div2">选择照片</div>
+            <input id="files"  type="file" name="files" accept="image/*" class="inputstyle" multiple="">
+        </div>
+
+        <div class="contain1">
+            <input class="print" type="submit" value="开始打印">
+        </div>
+    </form>
+</div>
+
+
+
+</body></html>
