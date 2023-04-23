@@ -1,2 +1,0 @@
-9Git is a distributed version control system.
-9 Git is free software distributed under the GPL.
